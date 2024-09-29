@@ -1,0 +1,28 @@
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\bin\Debug\net6.0\WebAPICHATest.Domain.deps.json
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\bin\Debug\net6.0\WebAPICHATest.Domain.dll
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\bin\Debug\net6.0\WebAPICHATest.Domain.pdb
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.csproj.AssemblyReference.cache
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.AssemblyInfoInputs.cache
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.AssemblyInfo.cs
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.dll
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\refint\WebAPICHATest.Domain.dll
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.pdb
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\ref\WebAPICHATest.Domain.dll
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\bin\Debug\net6.0\WebAPICHATest.Domain.runtimeconfig.json
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.genruntimeconfig.cache
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\bin\Debug\net6.0\WebAPICHATest.Domain.deps.json
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\bin\Debug\net6.0\WebAPICHATest.Domain.runtimeconfig.json
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\bin\Debug\net6.0\WebAPICHATest.Domain.dll
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\bin\Debug\net6.0\WebAPICHATest.Domain.pdb
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.AssemblyInfo.cs
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.dll
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\refint\WebAPICHATest.Domain.dll
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.pdb
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\WebAPICHATest.Domain.genruntimeconfig.cache
+C:\Users\Admin\source\repos\CMMS-Backend\WebAPICHATest\WebAPICHATest.Domain\obj\Debug\net6.0\ref\WebAPICHATest.Domain.dll

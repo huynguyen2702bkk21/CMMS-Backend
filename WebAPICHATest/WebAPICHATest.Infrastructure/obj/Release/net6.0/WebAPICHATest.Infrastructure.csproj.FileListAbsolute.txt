@@ -1,0 +1,17 @@
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\bin\Release\net6.0\WebAPICHATest.Infrastructure.deps.json
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\bin\Release\net6.0\WebAPICHATest.Infrastructure.dll
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\bin\Release\net6.0\WebAPICHATest.Infrastructure.pdb
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\bin\Release\net6.0\WebAPICHATest.Domain.dll
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\bin\Release\net6.0\WebAPICHATest.Domain.pdb
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\obj\Release\net6.0\WebAPICHATest.Infrastructure.csproj.AssemblyReference.cache
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\obj\Release\net6.0\WebAPICHATest.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\obj\Release\net6.0\WebAPICHATest.Infrastructure.AssemblyInfoInputs.cache
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\obj\Release\net6.0\WebAPICHATest.Infrastructure.AssemblyInfo.cs
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\obj\Release\net6.0\WebAPICHATest.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\obj\Release\net6.0\WebAPICHATest.Infrastructure.csproj.CopyComplete
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\obj\Release\net6.0\WebAPICHATest.Infrastructure.dll
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\obj\Release\net6.0\refint\WebAPICHATest.Infrastructure.dll
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\obj\Release\net6.0\WebAPICHATest.Infrastructure.pdb
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\obj\Release\net6.0\ref\WebAPICHATest.Infrastructure.dll
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\bin\Release\net6.0\WebAPICHATest.Infrastructure.runtimeconfig.json
+D:\Visual Studio 2022\Project\WebAPICHATest\WebAPICHATest.Infrastructure\obj\Release\net6.0\WebAPICHATest.Infrastructure.genruntimeconfig.cache

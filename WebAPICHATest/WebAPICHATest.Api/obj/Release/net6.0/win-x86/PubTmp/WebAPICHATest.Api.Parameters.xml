@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="WebAPICHACMMSTest" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Visual\ Studio\ 2022\\Project\\WebAPICHATest\\WebAPICHATest\.Api\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="WebAPICHATest.Infrastructure.ApplicationDbContext" description="" value="Server=tcp:webapichatestdbserver.database.windows.net,1433;Initial Catalog=WebAPICHACMMS;Persist Security Info=False;User ID=WebAPICHATest;Password=Anhtu@12345;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\Visual\ Studio\ 2022\\Project\\WebAPICHATest\\WebAPICHATest\.Api\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\EFSQLScripts\\WebAPICHATest\.Infrastructure\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Gk/zI3QTKjsqh5lUvRo64K7bz3G8Tq52eo5d71USXh8=",
+  "Source": "WebAPICHATest.Api",
+  "BasePath": "_content/WebAPICHATest.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

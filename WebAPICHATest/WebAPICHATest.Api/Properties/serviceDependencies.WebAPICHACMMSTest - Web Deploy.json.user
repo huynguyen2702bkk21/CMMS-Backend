@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-05-06T09:35:59.1466709Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "d4b2a8d6-a5f8-47a7-8d11-112cc10c8e43"
+    },
+    "WebAPICHACMMSTest.resourceGroupLocation": {
+      "Name": "WebAPICHACMMSTest.resourceGroupLocation",
+      "Type": null,
+      "Value": "eastus"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "WebAPICHACMMS"
+    },
+    "WebAPICHACMMSTest.subscriptionId": {
+      "Name": "WebAPICHACMMSTest.subscriptionId",
+      "Type": "subscription",
+      "Value": "d4b2a8d6-a5f8-47a7-8d11-112cc10c8e43"
+    },
+    "WebAPICHACMMSTest.resourceName": {
+      "Name": "WebAPICHACMMSTest.resourceName",
+      "Type": null,
+      "Value": "WebAPICHACMMSTest"
+    },
+    "WebAPICHACMMSTest.resourceGroupName": {
+      "Name": "WebAPICHACMMSTest.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "WebAPICHACMMS"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "d4b2a8d6-a5f8-47a7-8d11-112cc10c8e43"
+    }
+  }
+}

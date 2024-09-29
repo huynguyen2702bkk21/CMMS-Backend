@@ -1,0 +1,254 @@
+@startuml CHA CMMS
+
+enum EquipmentType{
+    bigInjection
+    smallInjection
+    mold
+}
+enum SolutionType{
+    repair
+    replace
+}
+
+enum MaintenanceType{
+    reactive
+    preventive
+    predictive
+}
+
+enum MaintenanceStatus {
+    new
+    assigned
+    inProgress
+    review
+    completed
+}
+
+enum RequestStatus {
+    submitted
+    reject
+    approved
+}
+
+enum CauseSeverity {
+    urgent
+    high
+    normal
+    low
+}
+
+enum MaterialStatus {
+    inUsed
+    expired
+    error
+    missing
+    available
+}
+
+
+class Employee{
+    + id: String
+    + name: String
+}
+class MaintenanceRequest {
+    + id: String 
+    + problem: String
+    + requestedCompletionDate: DateTime
+    + requestedPriority: int
+    + requestor: Employee  
+    + status: RequestStatus
+    + reviewer: Employee
+    + submissionDate: DateTime 
+    + code: String
+    + type: MaintenanceType
+    + equipment: Equipment
+    + images: List<String>
+    + sounds: List<String>
+}
+class MaintenanceWorkOrder{
+    + maintenanceWorkOrderId: String
+    + cause: List<Cause>
+    + correction: List<Correction>
+    + plannedStart: DateTime
+    + plannedFinish: DateTime
+    + createdAt: DateTime
+    + updatedAt: DateTime
+    + responsiblePerson: Employee
+    + materials: List<MaterialInfo>
+    + status: MaintenanceStatus
+    + code: String
+    + type: MaintenanceType
+    + equipment: Equipment
+    + causes: List<Cause>
+    + reviewer: Employee
+    + request: MaintenanceRequests
+}
+
+class MaintenanceResponse {
+    + cause: List<Cause>
+    + correction: List<Correction>
+    + actualStartTime: DateTime
+    + actualFinishTime: DateTime
+    + status: MaintenanceStatus
+    + statusTime: DateTime
+    + resposiblePerson: Employee
+    + images: List<String>
+    + sounds: List<String>
+    + materials: List<Material>
+    + code: String
+    + note: String
+    + request: MaintenanceRequest
+}
+
+class Equipment{
+    + id: String
+    + code: String
+    + name: String
+    + type: EquipmentType
+    + mtbf: PerformanceIndex
+    + mttf: PerformanceIndex
+    + oee: PerformanceIndex
+    + status: MaintenanceStatus
+    + recentMaintenanceReponse: List<MaintenanceResponse> // store 10 recent 
+    + errors: List<ChartObj>
+    + material: List<EquipmentMaterial>
+}
+
+class ChartObj {
+    + name: String
+    + value: Double
+}
+
+class EquipmentInfo {
+    + code: String
+    + name: String
+}
+'Extend from EquipmentInfo
+class MoldInfo {
+    + cavity: int
+    + products: List<Product>
+    + documentLink: String
+    + images: List<String>
+    + standard: Standard
+}
+
+class Product {
+    + code: String
+    + name: String
+    + quantity: double
+}
+class Standard {
+    images: List<String>
+    measurememts: Map<String, Any>
+    kitTest: KitTest
+}
+
+class KitTest {
+    + code: String
+    + name: String
+}
+
+class Cause{
+    + id: String
+    + code: String
+    + name: String
+    + equipmentType: EquipmentType
+    + severity: CauseSeverity
+    + note: String
+}
+
+class Correction {
+    + id: String
+    + code: String
+    + name: String
+    + type: SolutionType
+    + estProcessTime: Duration
+    + note: String
+}
+class PerformanceIndex {
+    + isTracking: Bool
+    + recentValue: double
+    + history: List<TimeSeriesObject>
+    + maxLength: int
+}
+class TimeSeriesObject {
+    + time: DateTime
+    + value: double
+}
+
+
+
+class MaterialInfo {
+    + code: String
+    + name: String
+    + unit: String
+    + minimumQuantity: double
+    + note: String
+}
+
+class MaterialRequest {
+    + id: String
+    + code: String
+    + materialInfo: MaterialInfo
+    + currentNumber: double
+    + additionalNumber: double
+    + expectedNumber: double
+    + expectedDate: DateTime
+}
+
+class Material {
+    + id: String
+    + materialInfo: MaterialInfo
+    + status: MaterialStatus
+    ' + currentQuantity: double
+    ' + requested: Bool
+    ' + fullTime: Double
+    ' + usedTime: Double
+    ' + installedTime: DateTime
+}
+
+class EquipmentMaterial {
+    + id: String
+    + materialInfo: MaterialInfo
+    + fullTime: Double
+    + usedTime: Double
+    + installedTime: DateTime
+}
+
+Equipment --* EquipmentType
+Equipment "1" --* "many" PerformanceIndex
+Equipment --* MaintenanceStatus
+Equipment --* EquipmentInfo
+
+MoldInfo "1" --* "many" Product 
+MoldInfo "1" --* Standard 
+Standard "1" --* KitTest 
+
+
+MaintenanceRequest --* MaintenanceType
+MaintenanceRequest --* Equipment
+MaintenanceRequest --* Employee
+
+MaintenanceWorkOrder --* MaintenanceRequest
+MaintenanceWorkOrder --* MaintenanceType
+MaintenanceWorkOrder --* MaintenanceStatus
+MaintenanceWorkOrder --* Equipment
+MaintenanceWorkOrder "1" --* "many" Cause
+MaintenanceWorkOrder --* Employee
+MaintenanceWorkOrder --* MaterialInfo
+
+MaintenanceResponse --* MaintenanceWorkOrder
+
+Cause --* CauseSeverity
+Cause --* SolutionType
+
+PerformanceIndex "1" --* "many" TimeSeriesObject
+
+MaintenanceResponse "1" --* "many" Material
+
+MaterialRequest "1" --* "1" MaterialInfo
+ 
+Material "1" --* "1" MaterialInfo
+Material "1" --* "1" MaterialStatus
+
+@enduml

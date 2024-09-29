@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUZwhhLDWjUi03hA5LcZBlAAAAAACAAAAAAAQZgAAAAEAACAAAAA8K0UclO3X3ASUvgwoRomTXZ8RrUdCAblmoG5z7wzOrAAAAAAOgAAAAAIAACAAAABo/9muQvXfmb42j8Btbo1fwKBA5Tp6rF7J8HV2l3prvYAAAAAp5maq7JlXbtD74Eiz8sQVJyxkyXDin2LtkR+TPqCIE1FPfh9s1ib9k0LEC21zRKFupYNjUEbmt6IP2/D7etpOObv1nGgXGI4qNweanjy9IG2fB3SAuCmtQ0qpRaMhyaKRRV1lPnubPRx8n/v3QP4gMD1b4iwohF778nsZ5NutWEAAAAB6juvA+KA7DmaNfYD423ij55Vkmqnfe/JaRDRnQAuytxZ5KSrbS1FGVCv0rh4tqq3m60h5HiIJuwEI8EVLrn8J</EncryptedPassword>
+    <History>False|2023-05-08T04:06:01.4300683Z;True|2023-05-08T10:56:42.9637959+07:00;True|2023-05-08T10:39:58.6488121+07:00;True|2023-05-08T10:32:50.6964515+07:00;True|2023-05-06T16:36:55.5952106+07:00;True|2023-05-06T16:33:57.4571007+07:00;False|2023-05-06T16:30:49.2910100+07:00;True|2023-05-06T16:23:18.4313689+07:00;True|2023-05-06T16:19:58.3866937+07:00;True|2023-05-06T16:07:02.2294488+07:00;True|2023-05-06T16:03:05.9493969+07:00;True|2023-05-06T14:36:34.1013652+07:00;True|2023-05-06T14:33:59.9885079+07:00;True|2023-05-06T14:30:58.0935539+07:00;True|2023-05-06T13:33:32.8253817+07:00;True|2023-05-06T13:29:08.7640006+07:00;True|2023-05-03T18:52:20.7804939+07:00;True|2023-05-03T18:43:35.7303186+07:00;True|2023-05-03T15:31:28.1370344+07:00;True|2023-05-01T12:10:08.4411585+07:00;True|2023-04-29T23:45:02.5983482+07:00;True|2023-04-29T17:21:12.5591101+07:00;True|2023-04-28T16:33:44.4438232+07:00;True|2023-04-28T10:26:14.4501411+07:00;True|2023-04-28T10:20:28.4067251+07:00;True|2023-04-28T10:11:05.5326178+07:00;True|2023-04-04T10:02:26.8325262+07:00;True|2023-03-31T14:56:35.2773512+07:00;True|2023-03-28T10:58:43.0545275+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:webapichatestdbserver.database.windows.net,1433%3bInitial Catalog=WebAPICHACMMS%3bPersist Security Info=False%3bUser ID=WebAPICHACMMSTest%3bPassword=Anhtu%4012345%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebAPICHATest.Infrastructure.ApplicationDbContext">
+      <Value>Server=tcp:webapichatestdbserver.database.windows.net,1433%3bInitial Catalog=WebAPICHACMMS%3bPersist Security Info=False%3bUser ID=WebAPICHACMMSTest%3bPassword=Anhtu%4012345%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
